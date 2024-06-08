@@ -1,3 +1,3 @@
-let transactions = [];
+const transactions = [];
 
 module.exports = transactions;
