@@ -44,6 +44,12 @@ or
 npm start
 ```
 
+### Application tests
+
+```sh
+npm test
+```
+
 ### Live Api
 
 ```sh
