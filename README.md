@@ -12,17 +12,20 @@ This project provides a set of RESTful APIs for currency exchange, including exc
 ### Installation
 
 1. Clone the repository:
+
     ```sh
     https://github.com/erdemkarakas/akinon-test-case-express-api.git
     cd akinon-test-case-express-api
     ```
 
 2. Install dependencies:
+
     ```sh
     npm install
     ```
 
 3. Create a `.env` file in the root directory and add your configuration:
+
     ```env
     CURRENCY_API_KEY=your_api_key
     CURRENCY_API_URL=http://data.fixer.io/api
@@ -34,11 +37,31 @@ This project provides a set of RESTful APIs for currency exchange, including exc
 ```sh
 npm run dev
 ```
+
 or
 
 ```sh
 npm start
 ```
 
+### Live Api
 
+```sh
+        https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/
+```
 
+ Example Request:
+
+```sh
+        https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/api/exchange
+```
+
+ Body:
+
+```sh
+{
+  "sourceAmount": 100,
+  "sourceCurrency": "EUR",
+  "targetCurrencies": ["USD", "GBP", "CAD", "PLN"]
+}
+```
