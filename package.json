@@ -7,7 +7,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Erdem Karakaş <erdemkarakas26@gmail.com> (https://erdemkarakas.dev)",
   "license": "ISC",
   "description": "",
   "dependencies": {
