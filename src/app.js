@@ -14,6 +14,12 @@ app.use(cors());
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({
+    message: 'Akinon Case Study - Exchange Rate API running!🔺',
+  });
+});
+
 const exchangeRateRouter = require('./routes/exchangeRate');
 const exchangeRouter = require('./routes/exchange');
 const exchangeListRouter = require('./routes/exchangeList');

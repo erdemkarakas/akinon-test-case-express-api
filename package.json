@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src",
+    "test": "jest",
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "Erdem Karakaş <erdemkarakas26@gmail.com> (https://erdemkarakas.dev)",
