@@ -15,7 +15,7 @@ This project provides a set of RESTful APIs for currency exchange, including exc
     ```sh
     https://github.com/erdemkarakas/akinon-test-case-express-api.git
     cd akinon-test-case-express-api
-    ``
+    ```
 
 2. Install dependencies:
     ```sh
