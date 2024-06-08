@@ -47,13 +47,13 @@ npm start
 ### Live Api
 
 ```sh
-        https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/
+https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/
 ```
 
  Example Request:
 
 ```sh
-        https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/api/exchange
+https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/api/exchange
 ```
 
  Body:
