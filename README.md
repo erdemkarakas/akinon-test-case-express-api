@@ -13,9 +13,9 @@ This project provides a set of RESTful APIs for currency exchange, including exc
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/currency-exchange-api.git
-    cd currency-exchange-api
-    ```
+    https://github.com/erdemkarakas/akinon-test-case-express-api.git
+    cd akinon-test-case-express-api
+    ``
 
 2. Install dependencies:
     ```sh
@@ -32,4 +32,13 @@ This project provides a set of RESTful APIs for currency exchange, including exc
 ### Running the Application
 
 ```sh
+npm run dev
+```
+or
+
+```sh
 npm start
+```
+
+
+
