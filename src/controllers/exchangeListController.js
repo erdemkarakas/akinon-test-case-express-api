@@ -2,7 +2,6 @@ const transactions = require('../models/transaction');
 
 exports.getExchangeList = (req, res) => {
   const { transactionId, startDate, endDate } = req.query;
-
   if (transactionId) {
     const transaction = transactions.find((tx) => tx.id === transactionId);
     if (transaction) {

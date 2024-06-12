@@ -59,7 +59,7 @@ https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/
  Example Request(POST):
 
 ```sh
-https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/api/exchange
+https://akinon-test-case-express-59h0v855w-erdemkarakas-projects.vercel.app/api/exchange/exchange-convert
 ```
 
  Body:

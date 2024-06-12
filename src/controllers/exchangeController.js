@@ -1,7 +1,6 @@
 const { v4: uuidv4 } = require('uuid');
 const { convert } = require('../services/exchangeService');
-
-const transactions = [];
+const transactions = require('../models/transaction');
 
 exports.convertCurrency = async (req, res) => {
   const { sourceAmount, sourceCurrency, targetCurrencies } = req.body;

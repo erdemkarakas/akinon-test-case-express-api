@@ -20,13 +20,9 @@ app.get('/', (req, res) => {
   });
 });
 
-const exchangeRateRouter = require('./routes/exchangeRate');
-const exchangeRouter = require('./routes/exchange');
-const exchangeListRouter = require('./routes/exchangeList');
+const exchangeRouter = require('./routes/exchangeRouter');
 
-app.use('/api/exchange-rate', exchangeRateRouter);
 app.use('/api/exchange', exchangeRouter);
-app.use('/api/exchange-list', exchangeListRouter);
 
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
