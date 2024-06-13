@@ -1,10 +1,10 @@
 const request = require('supertest');
 const app = require('../src/app');
 
-describe('POST /api/exchange', () => {
+describe('POST /api/exchange/exchange-convert', () => {
   it('should return converted amounts and transaction ID', async () => {
     const response = await request(app)
-      .post('/api/exchange')
+      .post('/api/exchange/exchange-convert')
       .send({ sourceAmount: 100, sourceCurrency: 'EUR', targetCurrencies: ['USD', 'GBP', 'CAD', 'PLN'] });
 
     expect(response.status).toBe(200);
